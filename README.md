@@ -1,2 +1,2 @@
 # PrenotazioneAuleMicroservice
-A simple RESTful Microservice.
+A simple RESTful Microservice
