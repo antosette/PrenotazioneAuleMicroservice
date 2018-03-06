@@ -1,12 +1,18 @@
 package com.marconivr.prenotazioneaule.PrenotazioneAuleMicroservice;
 
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PrenotazioneAuleMicroserviceApplication {
+public class PrenotazioneAuleMicroserviceApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PrenotazioneAuleMicroserviceApplication.class, args);
+	}
+
+	@Override
+	public void run(String... strings) throws Exception {
+
 	}
 }
