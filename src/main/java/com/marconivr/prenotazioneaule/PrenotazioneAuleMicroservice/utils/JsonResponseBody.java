@@ -3,6 +3,7 @@ package com.marconivr.prenotazioneaule.PrenotazioneAuleMicroservice.utils;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
@@ -10,7 +11,7 @@ import lombok.Setter;
  * It's important to have this Object because it is composed of server response code and response object.
  * Then, JACKSON LIBRARY automatically convert this JsonResponseBody Object into a JSON response.
  */
-@AllArgsConstructor
+@AllArgsConstructor @NoArgsConstructor
 public class JsonResponseBody{
     @Getter
     @Setter
