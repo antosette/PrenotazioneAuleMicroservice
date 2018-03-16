@@ -19,8 +19,7 @@ import java.util.Date;
  */
 @Entity
 @Table(name = "prenotazioni")
-@AllArgsConstructor
-@NoArgsConstructor
+@AllArgsConstructor @NoArgsConstructor
 public class Prenotazione {
     @Id
     @Column(name = "ID")

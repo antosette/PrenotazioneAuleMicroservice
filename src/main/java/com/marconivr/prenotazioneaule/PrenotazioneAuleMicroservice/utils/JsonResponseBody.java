@@ -13,8 +13,7 @@ import lombok.Setter;
  */
 @AllArgsConstructor @NoArgsConstructor
 public class JsonResponseBody{
-    @Getter
-    @Setter
+    @Getter    @Setter
     private int server;
     @Getter @Setter
     private Object response;

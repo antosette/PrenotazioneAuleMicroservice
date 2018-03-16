@@ -8,6 +8,7 @@ import java.util.Optional;
 public interface UtenteDao extends JpaRepository<Utente, String> {
 
     Optional<Utente> findById(String id); //implementazione della ricerca tramite Id utilizzando le named query di Spring.
+    Optional<Utente> findByusername(String id);
     Utente save(Utente u); //inserimento nuovo utente
     void delete(Utente u); //cancellazione utente
 }
