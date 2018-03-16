@@ -1,7 +1,3 @@
-# API
-/login
-Permette di eseguire il login di un utente registrato nel database
-
 # Prenotazione Aule Microservice - A simple RESTful Microservice
 
 Sviluppato a scopo didattico.
